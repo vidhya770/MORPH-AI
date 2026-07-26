@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>MORPH AI Assistant</title>
+
+<link rel="stylesheet" href="assistant.css">
+
+</head>
+
+
+<body>
+
+
+<div class="assistant-container">
+
+
+<!-- SIDEBAR -->
+
+<aside class="sidebar">
+
+    <h2>🤖 MORPH AI</h2>
+
+    <p>
+        Your Smart Hospital Assistant
+    </p>
+
+
+    <div class="menu-item">
+        🏥 Hospital Guide
+    </div>
+
+    <div class="menu-item">
+        🌍 Language Support
+    </div>
+
+    <div class="menu-item">
+        ♿ Accessibility
+    </div>
+
+    <div class="menu-item">
+        👵 Elder Care
+    </div>
+
+    <div class="menu-item">
+        🚨 Emergency
+    </div>
+
+
+</aside>
+
+
+
+
+
+<!-- MAIN CONTENT -->
+
+<main class="main-area">
+
+
+<!-- HEADER -->
+
+<div class="top-bar">
+
+    <h1>
+        MORPH AI Assistant
+    </h1>
+
+    <p>
+        One Hospital. Infinite Experiences.
+    </p>
+
+</div>
+
+
+
+
+
+
+<!-- FIRST AI ANALYZER -->
+
+<section class="analysis-box" id="analysisBox">
+
+
+<div class="ai-circle">
+    🤖
+</div>
+
+
+<h2>
+    MORPH AI Analysis
+</h2>
+
+
+<p id="analysisText">
+    Initialising MORPH AI...
+</p>
+
+
+
+<div class="progress-bar">
+
+    <div 
+    class="progress-fill" 
+    id="progressFill">
+    </div>
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- PROFILE SELECTION -->
+
+<section id="profilePage" style="display:none;">
+
+
+<h2 class="profile-heading">
+    Who are you today?
+</h2>
+
+
+<p class="profile-sub">
+    Select your profile to personalise your hospital experience.
+</p>
+
+
+
+
+<div class="profile-grid">
+
+
+
+<div class="profile-card">
+
+    <span>
+        👨‍🦯
+    </span>
+
+    <h3>
+        Visually Impaired
+    </h3>
+
+</div>
+
+
+
+
+
+<div class="profile-card">
+
+    <span>
+        ♿
+    </span>
+
+    <h3>
+        Wheelchair User
+    </h3>
+
+</div>
+
+
+
+
+
+<div class="profile-card">
+
+    <span>
+        👵
+    </span>
+
+    <h3>
+        Elderly
+    </h3>
+
+</div>
+
+
+
+
+
+<div class="profile-card">
+
+    <span>
+        🌍
+    </span>
+
+    <h3>
+        Tourist
+    </h3>
+
+</div>
+
+
+
+
+
+<div class="profile-card">
+
+    <span>
+        🚨
+    </span>
+
+    <h3>
+        Emergency
+    </h3>
+
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- SECOND AI ANALYZER + DASHBOARD -->
+
+<section id="dashboardArea">
+
+</section>
+
+
+
+
+
+
+
+<!-- CHAT AREA -->
+
+<section class="chat-section" id="chatSection" style="display:none;">
+
+
+<div class="chat-header">
+
+🤖 MORPH AI Assistant
+
+</div>
+
+
+
+<div class="chat-messages" id="chatMessages">
+
+
+<div class="bot-message">
+
+Hello! I am MORPH AI.
+How can I help you?
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="chat-input">
+
+
+<input
+id="userInput"
+placeholder="Ask MORPH AI..."
+>
+
+<button id="micBtn">
+🎤
+</button>
+
+<button id="sendBtn">
+Send
+</button>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+</div>
+
+
+
+
+
+<script src="assistant.js"></script>
+
+
+</body>
+
+</html>
