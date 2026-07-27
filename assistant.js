@@ -515,7 +515,7 @@ sendBtn.addEventListener("click", async () => {
 
     try {
 
-        const response = await fetch("http://localhost:3000/chat", {
+        const response = await fetch("https://morph-ai-bxfd.onrender.com/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
